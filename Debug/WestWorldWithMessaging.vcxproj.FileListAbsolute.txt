@@ -1,0 +1,2 @@
+C:\Users\Guillaume\Desktop\State Machines\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.exe
+C:\Users\Guillaume\Desktop\State Machines\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.pdb

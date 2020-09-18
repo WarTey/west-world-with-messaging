@@ -1,2 +1,4 @@
 C:\Users\Guillaume\Desktop\State Machines\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.exe
 C:\Users\Guillaume\Desktop\State Machines\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.pdb
+Z:\Transferts\State Machine\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.exe
+Z:\Transferts\State Machine\Buckland_Chapter2-State Machines\WestWorldWithMessaging\Debug\WestWorldWithMessaging.pdb

@@ -64,7 +64,7 @@
       <PrecompiledHeaderOutputFile>.\Release\WestWorldWithMessaging.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
-      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\State Machines\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Z:\Transferts\State Machine\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Midl>
       <TypeLibraryName>.\Release\WestWorldWithMessaging.tlb</TypeLibraryName>
@@ -102,7 +102,7 @@
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <AdditionalIncludeDirectories>C:\Users\Guillaume\Desktop\State Machines\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Z:\Transferts\State Machine\Common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Midl>
       <TypeLibraryName>.\Debug\WestWorldWithMessaging.tlb</TypeLibraryName>
@@ -126,6 +126,8 @@
   <ItemGroup>
     <ClCompile Include="..\..\Common\Time\CrudeTimer.cpp" />
     <ClCompile Include="BaseGameEntity.cpp" />
+    <ClCompile Include="Drunkard.cpp" />
+    <ClCompile Include="DrunkardOwnedStates.cpp" />
     <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MessageDispatcher.cpp" />
@@ -145,6 +147,8 @@
     <ClInclude Include="..\..\Common\Time\CrudeTimer.h" />
     <ClInclude Include="..\..\Common\utils.h" />
     <ClInclude Include="BaseGameEntity.h" />
+    <ClInclude Include="Drunkard.h" />
+    <ClInclude Include="DrunkardOwnedStates.h" />
     <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EntityNames.h" />
     <ClInclude Include="Locations.h" />

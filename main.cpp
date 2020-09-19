@@ -1,6 +1,8 @@
 #include <fstream>
 #include <time.h>
+#include <thread>
 
+#include "BaseGameEntity.h"
 #include "Locations.h"
 #include "Miner.h"
 #include "MinersWife.h"
@@ -11,6 +13,11 @@
 #include "EntityNames.h"
 
 std::ofstream os;
+
+void ExecuteEntity(BaseGameEntity* entity)
+{
+	entity->Update();
+}
 
 int main()
 {
@@ -39,10 +46,18 @@ int main()
 	//run Bob and Elsa through a few Update calls
 	for (int i = 0; i < 30; ++i)
 	{
-		Bob->Update();
+		/*Bob->Update();
 		Elsa->Update();
-		Tim->Update();
+		Tim->Update();*/
 
+		std::thread threadBob(&ExecuteEntity, Bob);
+		std::thread threadElsa(&ExecuteEntity, Elsa);
+		std::thread threadTim(&ExecuteEntity, Tim);
+
+		threadBob.join();
+		threadElsa.join();
+		threadTim.join();
+		
 		//dispatch any delayed messages
 		Dispatch->DispatchDelayedMessages();
 
